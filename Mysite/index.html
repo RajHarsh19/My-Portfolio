@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js"></script>
+
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <a href="#home" style="--i:1"class="active" >Home</a>
+      <a href="#about" style="--i:2">About</a>
+      <a href="#skills" style="--i:3">Skill</a>
+      <a href="#projects" style="--i:4">Projects</a>
+      <a href="#contact" style="--i:5">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Harsh Raj</h1>
+      <h3>And I'm a <span class="text"></span></h3>
+      <h3>Final Year B.Tech (CSE) Student</h3>
+      <p>
+        I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js).
+        On the AI/ML side, I have used various models with Scikit-learn, PyTorch, and TensorFlow.
+        My projects include sentiment analysis, predictive analytics, and more.
+        I love solving real-world problems and contributing to meaningful tech solutions.
+      </p>
+      <div class="home-sci">
+        
+        <a href="https://www.linkedin.com/in/harsh-raj-b0b020252/" style="--i:8"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/RajHarsh19" style="--i:9"><i class="bx bxl-github"></i></a>
+        <a href="https://x.com/Harshraj0919?t=T3wkcivzGprWv75C99YT8A&s=08" style="--i:10"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <a href="#about" class="btn-box">More about Me</a>
+    </div>
+
+    <div class="home-img">
+      <img src="harshrajpic.jpg" alt="Harsh Raj">
+    </div>
+  </section>
+ <section class="about" id="about">
+  <div class="about-container">
+    <div class="about-img">
+      <img src="harshrajpic.jpg" alt="Harsh Raj">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About Me</h2>
+      <h3>AI/ML Enthusiast & Frontend Developer</h3>
+      <p>
+        I'm Harsh Raj, a passionate  B.Tech Computer Science student at KIIT, passionately immersed in the world of coding.<br>
+
+        My love for programming drives me to explore new technologies and solve complex problems. 
+        With each line of code, I find a unique joy and fulfillment, constantly honing my skills and embracing the challenges of this ever-evolving field.with a strong interest in Artificial Intelligence, Machine Learning, and modern web technologies.
+        I love building interactive user interfaces and solving real-world problems through code. 
+        I'm continuously learning and exploring the latest tech trends to stay updated in this fast-paced digital world.
+      </p>
+      <a href="#contact" class="btn-box">More about me</a>
+    </div>
+  </div>
+</section>
+<section class="skills" id="skills">
+  <h2 class="heading">My <span>Skills</span></h2>
+  <div class="skills-container">
+
+    <!-- Frontend Skills -->
+    <div class="skill-box"><img src="icons/html5.svg" alt="HTML5"><p>HTML5</p></div>
+    <div class="skill-box"><img src="icons/css-svgrepo-com.svg" alt="CSS3"><p>CSS3</p></div>
+    <div class="skill-box"><img src="icons/javascript-svgrepo-com.svg" alt="JavaScript"><p>JavaScript</p></div>
+    <div class="skill-box"><img src="icons/react-svgrepo-com.svg" alt="React"><p>React</p></div>
+
+    <!-- Backend & DB -->
+    <div class="skill-box"><img src="icons/node-js-svgrepo-com.svg" alt="Node.js"><p>Node.js</p></div>
+    <div class="skill-box"><img src="icons/mongodb-svgrepo-com.svg" alt="MongoDB"><p>MongoDB</p></div>
+    <div class="skill-box"><img src="icons/mysql-svgrepo-com.svg" alt="MySQL"><p>MySQL</p></div>
+
+    <!-- Programming Languages -->
+    <div class="skill-box"><img src="icons/python-svgrepo-com.svg" alt="Python"><p>Python</p></div>
+    <div class="skill-box"><img src="icons/cplusplus.svg" alt="C++"><p>C++</p></div>
+
+    <!-- Machine Learning & Data Science -->
+    <div class="skill-box"><img src="icons/tensorflow.svg" alt="TensorFlow"><p>TensorFlow</p></div>
+    <div class="skill-box"><img src="icons/scikitlearn.svg" alt="Scikit-learn"><p>Scikit-learn</p></div>
+    <div class="skill-box"><img src="icons/pandas.svg" alt="Pandas"><p>Pandas</p></div>
+    <div class="skill-box"><img src="icons/numpy.svg" alt="NumPy"><p>NumPy</p></div>
+    <div class="skill-box"><img src="icons/pytorch-svgrepo-com.svg" alt="PyTorch"><p>PyTorch</p></div>
+
+  </div>
+</section>
+
+
+
+<section class="projects-section" id="projects">
+    <h2 class="projects-heading">My Projects</h2>
+    <div class="projects-container">
+
+    <a href="https://yourproject1-link.com" class="project-card" target="_blank">
+      <img src="Portfolio.png" alt="Portfolio Website">
+      <div class="project-info">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio built with HTML, CSS, and JavaScript showcasing my skills, projects, and experience. Features smooth navigation, animated UI, and clean design to highlight my work effectively.</p>
+      </div>
+    </a>
+
+    <a href="https://pancreatic-cancer-mini.streamlit.app/" class="project-card" target="_blank">
+      <img src="Pancreatic-Cancer.jpg" alt="Pancreatic Cancer Predictor">
+      <div class="project-info">
+        <h3>Pancreatic Cancer Prediction</h3>
+        <p>Machine learning model for predicting if a patient has Pancreatic Cancer or not using Scikit-learn.<br>Built a machine learning model using clinical data to predict the likelihood of pancreatic cancer. Applied logistic regression and ensemble methods, with preprocessing for missing values and feature selection. Achieved high accuracy and precision, aiding early diagnosis and risk assessment.
+        </p>
+      </div>
+    </a>
+
+    <a href="https://advertising-sales-predictior.streamlit.app/" class="project-card" target="_blank">
+      <img src="Sales Predictor.png" alt="Sales Predictor">
+      <div class="project-info">
+        <h3>Advertising Sales Predictior</h3>
+        <p>Built a regression model using Python and scikit-learn to forecast sales based on advertising spend across different channels.<br> Applied data preprocessing, feature engineering, and model evaluation to optimize prediction accuracy and support marketing strategy..</p>
+      </div>
+    </a>
+
+    <a href="https://tic-tac-toe-liart-ten-16.vercel.app/" class="project-card" target="_blank">
+      <img src="Tic-Tac-Toe.png" alt="Tic-Tac-Toe Game">
+      <div class="project-info">
+        <h3>Tic Tac Toe</h3>
+        <p>Developed an interactive Tic Tac Toe game using JavaScript with HTML/CSS for UI. Implemented game logic, win detection, and dynamic UI updates.<br>Added features like reset functionality and turn indicators for a smooth user experience.</p>
+      </div>
+    </a>
+    <a href="https://covid-19.kyh.io/" class="project-card" target="_blank">
+      <img src="Covid-19 live.png" alt="Covid-19 Live Tracker">
+      <div class="project-info">
+        <h3>Covid-19 Live Tracker</h3>
+        <p>Developed a real-time COVID-19 Live Tracker using HTML, CSS, JavaScript, and a public API to display global and country-wise statistics. <br>The dashboard dynamically updates data including confirmed cases, recoveries, and deaths with interactive UI components for enhanced user experience.</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+  <div class="contact-container">
+    <form action="https://formspree.io/f/mzzgeald" method="POST" class="contact-form">
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+      </div>
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-box">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
